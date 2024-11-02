@@ -10,8 +10,8 @@ interface LegacyComponent {
   nodes: Node[],
   edges: Edge[],
   style: {
-    node_colors: { [key: string]: string },
-    edge_colors: { [key: string]: { [key: string]: string } },
+    node_colors: { [key: Node]: string },
+    edge_colors: { [key: Node]: { [key: Node]: string } },
   },
 }
 
@@ -25,4 +25,25 @@ interface LegacyVisualizationResult {
   frames: LegacyFrame[],
 }
 
-export { LegacyFrame, LegacyComponent, LegacyVisualizationResult };
+function isLegacyFrame(object: any): object is LegacyFrame {
+  return 'lineno' in object && Array.isArray(object.lineno) &&
+    typeof object.lineno[0] === 'number' &&
+    (!('console_logs' in object) || !object.console_logs || typeof object.console_logs === 'string') &&
+    'components' in object && Array.isArray(object.components);
+
+}
+
+function isLegacyVisualizationResult(object: any): object is LegacyVisualizationResult {
+  return 'timestamp' in object && typeof object.timestamp === 'string' &&
+    'res' in object && typeof object.res === 'string' &&
+    (!('err' in object) || !object.err || typeof object.err === 'string') &&
+    'alg_time' in object && typeof object.alg_time === 'number' &&
+    'parse_time' in object && typeof object.parse_time === 'number' &&
+    'elapsed' in object && typeof object.elapsed === 'number' &&
+    'frames' in object;
+}
+
+export {
+  LegacyFrame, LegacyComponent, LegacyVisualizationResult,
+  isLegacyFrame, isLegacyVisualizationResult
+};

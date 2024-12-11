@@ -1,8 +1,14 @@
+/**
+ * @deprecated
+ */
 export interface LogInFormData {
   username: string;
   password: string;
 }
 
+/**
+ * @deprecated
+ */
 export interface RegisterFormData extends LogInFormData {
   email: string;
 }

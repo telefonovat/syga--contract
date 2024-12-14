@@ -15,6 +15,10 @@ export interface RegisterFormData extends LogInFormData {
   email: string;
 }
 
+export interface JSONWebToken {
+  token: string;
+}
+
 export interface User {
   username: string;
   email: string;

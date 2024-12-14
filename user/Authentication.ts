@@ -1,3 +1,5 @@
+import { Algorithm } from './Algorithm';
+
 /**
  * @deprecated
  */

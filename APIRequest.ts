@@ -5,7 +5,6 @@ import {
 import { VisualizationRequest } from './visualization/VisualizationRequest';
 
 export interface APIRequest {
-  token?: string;
   content?:
     | VisualizationRequest
     | UserLoginInfo

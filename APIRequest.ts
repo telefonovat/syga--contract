@@ -10,5 +10,5 @@ export interface APIRequest {
     | VisualizationRequest
     | UserLoginInfo
     | UserRegistrationInfo
-    | Omit<Algorithm, 'uuid'>;
+    | Omit<Algorithm, 'uuid' | 'creatorUsername'>;
 }

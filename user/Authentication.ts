@@ -24,7 +24,8 @@ export interface User {
   email: string;
   password: string;
   role: 'student' | 'admin';
-  algorithms: Algorithm[];
+  // algorithms: Algorithm[];
+  algorithmIds: string[];
 }
 
 export type UserLoginInfo = Pick<User, 'username' | 'password'>;

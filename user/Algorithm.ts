@@ -1,5 +1,6 @@
 export interface Algorithm {
   uuid: string;
+  creatorUsername: string;
   title: string;
   code: string;
   tags: string[];

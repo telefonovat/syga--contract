@@ -4,4 +4,9 @@ export interface Algorithm {
   code: string;
   tags: string[];
   isPublic: boolean;
+  isStarred: boolean;
+  upstreamAlgorithm?: {
+    username: string;
+    uuid: string;
+  };
 }

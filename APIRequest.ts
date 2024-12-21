@@ -1,3 +1,4 @@
+import { Algorithm } from './user/Algorithm';
 import {
   UserLoginInfo,
   UserRegistrationInfo,
@@ -8,5 +9,6 @@ export interface APIRequest {
   content?:
     | VisualizationRequest
     | UserLoginInfo
-    | UserRegistrationInfo;
+    | UserRegistrationInfo
+    | Omit<Algorithm, 'uuid'>;
 }

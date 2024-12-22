@@ -5,6 +5,10 @@ import { VisualizationResult } from './visualization/VisualizationResult';
 export interface APIResponse {
   success: boolean;
   message: string;
-  content?: VisualizationResult | JSONWebToken | Algorithm[] | any;
+  content?:
+    | VisualizationResult
+    | JSONWebToken
+    | Algorithm[]
+    | Algorithm;
   errors?: any;
 }

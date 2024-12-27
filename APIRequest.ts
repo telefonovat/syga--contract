@@ -6,11 +6,14 @@ import {
 import { VisualizationRequest } from './visualization/VisualizationRequest';
 
 type AlgorithmUpdate = Partial<Algorithm>;
+type PotentialUsername = string;
+
 export interface APIRequest {
   content?:
     | VisualizationRequest
     | UserLoginInfo
     | UserRegistrationInfo
     | Omit<Algorithm, 'uuid' | 'creatorUsername'>
-    | AlgorithmUpdate;
+    | AlgorithmUpdate
+    | PotentialUsername;
 }

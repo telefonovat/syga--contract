@@ -1,5 +1,5 @@
 import { Algorithm } from './user/Algorithm';
-import { JSONWebToken } from './user/Authentication';
+import { JSONWebToken, User } from './user/Authentication';
 import { VisualizationResult } from './visualization/VisualizationResult';
 
 export interface APIResponse {
@@ -9,6 +9,7 @@ export interface APIResponse {
     | VisualizationResult
     | JSONWebToken
     | Algorithm[]
-    | Algorithm;
+    | Algorithm
+    | User['username'][];
   errors?: any;
 }

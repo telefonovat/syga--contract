@@ -7,6 +7,7 @@ interface LegacyFrame {
 }
 
 interface LegacyComponent {
+  type: 'Graph' | 'DiGraph';
   nodes: Node[];
   edges: Edge[];
   style: {

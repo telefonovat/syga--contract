@@ -1,5 +1,5 @@
 {
-  "name": "@telefonovat/shared-types-syga",
+  "name": "@telefonovat/syga--contract",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/telefonovat/shared-types-syga.git"
+    "url": "git+https://github.com/telefonovat/syga--contract.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/telefonovat/shared-types-syga/issues"
+    "url": "https://github.com/telefonovat/syga--contract/issues"
   },
-  "homepage": "https://github.com/telefonovat/shared-types-syga#readme",
+  "homepage": "https://github.com/telefonovat/syga--contract#readme",
   "description": "",
   "devDependencies": {
     "prettier": "^3.5.3",

@@ -1,3 +1,4 @@
+export { SygaAlgorithm } from './SygaAlgorithm.ts';
 export {
   GraphEdge,
   GraphVertex,

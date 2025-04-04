@@ -14,3 +14,20 @@ export * from './visualization/';
 export { APIRequest, APIResponse };
 export { Algorithm };
 export { JSONWebToken, User, UserLoginInfo, UserRegistrationInfo };
+
+// Below is new DDD interfaces and types
+
+export {
+  SygaAlgorithm,
+  GraphEdge,
+  GraphVertex,
+  GraphComponent,
+  GraphComponentStyle,
+  GraphType,
+  GraphVertexShape,
+  GraphEdgeShape,
+} from './domain';
+
+export { SygaApiRequest, ExecuteAlgorithmRequest } from './request';
+
+export { ExecuteAlgorithmResponse } from './response';

@@ -30,4 +30,7 @@ export {
 
 export { SygaApiRequest, ExecuteAlgorithmRequest } from './request';
 
-export { ExecuteAlgorithmResponse } from './response';
+export {
+  ExecuteAlgorithmResponse,
+  SygaApiErrorResponse,
+} from './response';

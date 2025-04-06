@@ -1,5 +1,8 @@
 import { VisualizationFrame } from '../../domain/visualization/VisualizationFrame';
-export interface ExecuteAlgorithmResult {
+import { SygaApiResponse } from '../SygaApiResponse';
+
+export interface ExecuteAlgorithmSuccessResult
+  extends SygaApiResponse {
   timestamp: string;
   response: string;
   errorMessage?: string;

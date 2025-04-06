@@ -1,1 +1,1 @@
-export { ExecuteAlgorithmResult } from './ExecuteAlgorithmResult.ts';
+export { ExecuteAlgorithmSuccessResult } from './ExecuteAlgorithmSuccessResult';

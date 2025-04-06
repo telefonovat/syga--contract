@@ -1,3 +1,6 @@
-import { ExecuteAlgorithmResult } from './results';
+import { ExecuteAlgorithmSuccessResult } from './results';
+import { SygaApiErrorResponse } from './SygaApiErrorResponse';
 
-export type ExecuteAlgorithmResponse = ExecuteAlgorithmResult;
+export type ExecuteAlgorithmResponse =
+  | ExecuteAlgorithmSuccessResult
+  | SygaApiErrorResponse;

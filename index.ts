@@ -28,7 +28,7 @@ export {
   GraphEdgeShape,
 } from './domain';
 
-export { SygaApiRequest, ExecuteAlgorithmRequest } from './request';
+export { SygaAPIRequest, ExecuteAlgorithmRequest } from './request';
 
 export {
   ExecuteAlgorithmResponse,

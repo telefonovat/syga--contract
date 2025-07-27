@@ -1,3 +1,3 @@
-export interface SygaApiResponse {
+export interface SygaAPIResponse {
   success: boolean;
 }

@@ -1,5 +1,5 @@
-import { SygaApiResponse } from './SygaApiResponse';
+import { SygaAPIResponse } from './SygaApiResponse';
 
-export interface SygaApiErrorResponse extends SygaApiResponse {
+export interface SygaAPIErrorResponse extends SygaAPIResponse {
   errorMessages: string[];
 }

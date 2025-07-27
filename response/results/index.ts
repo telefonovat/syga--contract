@@ -1,1 +1,1 @@
-export { ExecuteAlgorithmSuccessResult } from './ExecuteAlgorithmSuccessResult';
+export { ExecuteAlgorithmSuccessResponse } from './ExecuteAlgorithmSuccessResponse';

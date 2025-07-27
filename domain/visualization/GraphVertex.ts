@@ -1,3 +1,3 @@
 export interface GraphVertex {
-  name: string | number;
+  id: string | number;
 }

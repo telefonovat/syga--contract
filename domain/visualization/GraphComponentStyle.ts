@@ -16,26 +16,26 @@ type GraphVertexName = GraphVertex['id'];
 type GraphVertexColor = string;
 type GraphVertexLabel = string;
 
-interface GraphVertexColors {
+export interface GraphVertexColors {
   [key: GraphVertexName]: GraphVertexColor;
 }
 
-interface GraphVertexLabels {
+export interface GraphVertexLabels {
   [key: GraphVertexName]: GraphVertexLabel;
 }
 
-interface GraphVertexShapes {
+export interface GraphVertexShapes {
   [key: GraphVertexName]: GraphVertexShape;
 }
 
-interface GraphEdgeColors {
+export interface GraphEdgeColors {
   [key: GraphVertexName]: { [key: GraphVertexName]: GraphVertexName };
 }
 
-interface GraphEdgeLabels {
+export interface GraphEdgeLabels {
   [key: GraphVertexName]: { [key: GraphVertexName]: string };
 }
 
-interface GraphEdgeShapes {
+export interface GraphEdgeShapes {
   [key: GraphVertexName]: { [key: GraphVertexName]: GraphEdgeShape };
 }

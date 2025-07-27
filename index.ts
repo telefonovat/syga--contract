@@ -27,6 +27,12 @@ export {
   GraphVertexShape,
   GraphEdgeShape,
   VisualizationFrame,
+  GraphEdgeColors,
+  GraphEdgeLabels,
+  GraphEdgeShapes,
+  GraphVertexColors,
+  GraphVertexLabels,
+  GraphVertexShapes,
 } from './domain';
 
 export { SygaAPIRequest, ExecuteAlgorithmRequest } from './request';

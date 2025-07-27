@@ -8,4 +8,10 @@ export {
   GraphVertexShape,
   GraphEdgeShape,
   VisualizationFrame,
+  GraphEdgeColors,
+  GraphEdgeLabels,
+  GraphEdgeShapes,
+  GraphVertexColors,
+  GraphVertexLabels,
+  GraphVertexShapes,
 } from './visualization';

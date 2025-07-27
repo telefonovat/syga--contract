@@ -15,6 +15,8 @@ export interface GraphComponentStyle {
 type GraphVertexName = GraphVertex['id'];
 type GraphVertexColor = string;
 type GraphVertexLabel = string;
+type GraphEdgeColor = string;
+type GraphEdgeLabel = string;
 
 export interface GraphVertexColors {
   [key: GraphVertexName]: GraphVertexColor;
@@ -29,11 +31,11 @@ export interface GraphVertexShapes {
 }
 
 export interface GraphEdgeColors {
-  [key: GraphVertexName]: { [key: GraphVertexName]: GraphVertexName };
+  [key: GraphVertexName]: { [key: GraphVertexName]: GraphEdgeColor };
 }
 
 export interface GraphEdgeLabels {
-  [key: GraphVertexName]: { [key: GraphVertexName]: string };
+  [key: GraphVertexName]: { [key: GraphVertexName]: GraphEdgeLabel };
 }
 
 export interface GraphEdgeShapes {

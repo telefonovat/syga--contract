@@ -1,3 +1,4 @@
+import { GraphComponentStyle } from './GraphComponentStyle';
 import { GraphEdge } from './GraphEdge';
 import { GraphVertex } from './GraphVertex';
 
@@ -9,4 +10,5 @@ export interface GraphComponent {
   type: GraphType;
   vertices: GraphVertex[];
   edges: GraphEdge[];
+  style: GraphComponentStyle;
 }

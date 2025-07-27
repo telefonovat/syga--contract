@@ -12,7 +12,7 @@ export interface GraphComponentStyle {
   edgeShapes: GraphEdgeShapes;
 }
 
-type GraphVertexName = GraphVertex['name'];
+type GraphVertexName = GraphVertex['id'];
 type GraphVertexColor = string;
 type GraphVertexLabel = string;
 

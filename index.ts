@@ -26,11 +26,15 @@ export {
   GraphType,
   GraphVertexShape,
   GraphEdgeShape,
+  VisualizationFrame,
 } from './domain';
 
 export { SygaAPIRequest, ExecuteAlgorithmRequest } from './request';
 
 export {
   ExecuteAlgorithmResponse,
-  SygaApiErrorResponse,
+  SygaAPIErrorResponse,
+  isSygaAPIErrorResponse,
+  isExecuteAlgorithmResult,
+  isExecuteAlgorithmSuccessResponse,
 } from './response';

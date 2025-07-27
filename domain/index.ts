@@ -7,4 +7,5 @@ export {
   GraphType,
   GraphVertexShape,
   GraphEdgeShape,
+  VisualizationFrame,
 } from './visualization';

@@ -13,7 +13,7 @@ interface ExecuteAlgorithmResult {
 
 export interface ExecuteAlgorithmSuccessResponse
   extends SygaAPIResponse {
-  result: ExecuteAlgorithmResult;
+  payload: ExecuteAlgorithmResult;
 }
 
 export function isExecuteAlgorithmResult(

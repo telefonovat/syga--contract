@@ -4,6 +4,6 @@ export {
   isExecuteAlgorithmSuccessResponse,
 } from './ExecuteAlgorithmResponse';
 export {
-  isSygaAPIErrorResponse,
-  SygaAPIErrorResponse,
-} from './SygaApiErrorResponse.ts';
+  isApiErrorResponse,
+  ApiErrorResponse,
+} from './ApiErrorResponse.ts';

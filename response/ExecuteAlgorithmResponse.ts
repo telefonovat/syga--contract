@@ -4,8 +4,8 @@ export {
   isExecuteAlgorithmSuccessResponse,
 } from './results';
 import { ExecuteAlgorithmSuccessResponse } from './results';
-import { SygaAPIErrorResponse } from './SygaApiErrorResponse';
+import { ApiErrorResponse } from './ApiErrorResponse';
 
 export type ExecuteAlgorithmResponse =
   | ExecuteAlgorithmSuccessResponse
-  | SygaAPIErrorResponse;
+  | ApiErrorResponse;

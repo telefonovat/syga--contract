@@ -35,12 +35,12 @@ export {
   GraphVertexShapes,
 } from './domain';
 
-export { SygaAPIRequest, ExecuteAlgorithmRequest } from './request';
+export { ApiRequest, ExecuteAlgorithmRequest } from './request';
 
 export {
   ExecuteAlgorithmResponse,
-  SygaAPIErrorResponse,
-  isSygaAPIErrorResponse,
+  isApiErrorResponse,
+  ApiErrorResponse,
   isExecuteAlgorithmResult,
   isExecuteAlgorithmSuccessResponse,
 } from './response';

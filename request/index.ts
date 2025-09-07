@@ -1,2 +1,2 @@
-export { SygaAPIRequest } from './SygaApiRequest';
+export { ApiRequest } from './ApiRequest';
 export { ExecuteAlgorithmRequest } from './ExecuteAlgorithmRequest';

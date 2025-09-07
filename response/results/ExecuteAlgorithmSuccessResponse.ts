@@ -1,5 +1,6 @@
 import { VisualizationFrame } from '../../domain/visualization/VisualizationFrame';
-import { SygaAPIResponse } from '../SygaApiResponse';
+import { ApiResponse } from '../ApiResponse.ts';
+import { ApiSuccessResponse } from '../ApiSuccessResponse.ts';
 
 interface ExecuteAlgorithmResult {
   timestamp: string;
@@ -12,7 +13,7 @@ interface ExecuteAlgorithmResult {
 }
 
 export interface ExecuteAlgorithmSuccessResponse
-  extends SygaAPIResponse {
+  extends ApiSuccessResponse<ExecuteAlgorithmResult> {
   payload: ExecuteAlgorithmResult;
 }
 

@@ -35,7 +35,11 @@ export {
   GraphVertexShapes,
 } from './domain';
 
-export { ApiRequest, ExecuteAlgorithmRequest } from './request';
+export {
+  ApiRequest,
+  ExecuteAlgorithmRequest,
+  AuthenticateRequest,
+} from './request';
 
 export {
   ExecuteAlgorithmResponse,
@@ -43,4 +47,5 @@ export {
   ApiErrorResponse,
   isExecuteAlgorithmResult,
   isExecuteAlgorithmSuccessResponse,
+  AuthenticateSuccessResponse,
 } from './response';

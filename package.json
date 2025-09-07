@@ -1,6 +1,6 @@
 {
   "name": "@telefonovat/syga--contract",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -6,6 +6,8 @@ export {
 export {
   AuthenticateSuccessResponse,
   isAuthenticateSuccessResponse,
+  GetUserAlgorithmsSuccessResponse,
+  isGetUserAlgorithmsSuccessResponse,
 } from './results';
 export {
   isApiErrorResponse,

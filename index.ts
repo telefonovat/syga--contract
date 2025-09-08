@@ -19,6 +19,7 @@ export { JSONWebToken, User, UserLoginInfo, UserRegistrationInfo };
 
 export {
   SygaAlgorithm,
+  SygaAlgorithmIdentifier,
   GraphEdge,
   GraphVertex,
   GraphComponent,
@@ -50,4 +51,6 @@ export {
   isExecuteAlgorithmSuccessResponse,
   AuthenticateSuccessResponse,
   isAuthenticateSuccessResponse,
+  GetUserAlgorithmsSuccessResponse,
+  isGetUserAlgorithmsSuccessResponse,
 } from './response';

@@ -8,3 +8,8 @@ export {
   isAuthenticateSuccessResponse,
   AuthenticateSuccessResponse,
 } from './AuthenticateSuccessResponse';
+
+export {
+  GetUserAlgorithmsSuccessResponse,
+  isGetUserAlgorithmsSuccessResponse,
+} from './GetUserAlgorithmsSuccessResponse.ts';

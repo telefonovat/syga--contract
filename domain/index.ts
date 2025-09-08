@@ -1,4 +1,8 @@
-export { SygaAlgorithm } from './SygaAlgorithm.ts';
+export {
+  SygaAlgorithm,
+  isSygaAlgorithmIdentifier,
+  SygaAlgorithmIdentifier,
+} from './user';
 export {
   GraphEdge,
   GraphVertex,

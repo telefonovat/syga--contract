@@ -39,6 +39,7 @@ export {
   ApiRequest,
   ExecuteAlgorithmRequest,
   AuthenticateRequest,
+  isAuthenticateRequest,
 } from './request';
 
 export {

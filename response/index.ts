@@ -3,7 +3,10 @@ export {
   isExecuteAlgorithmResult,
   isExecuteAlgorithmSuccessResponse,
 } from './ExecuteAlgorithmResponse';
-export { AuthenticateSuccessResponse } from './results/AuthenticateSuccessResponse.ts';
+export {
+  AuthenticateSuccessResponse,
+  isAuthenticateSuccessResponse,
+} from './results';
 export {
   isApiErrorResponse,
   ApiErrorResponse,

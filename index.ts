@@ -49,4 +49,5 @@ export {
   isExecuteAlgorithmResult,
   isExecuteAlgorithmSuccessResponse,
   AuthenticateSuccessResponse,
+  isAuthenticateSuccessResponse,
 } from './response';

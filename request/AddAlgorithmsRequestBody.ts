@@ -8,7 +8,9 @@ export interface AddAlgorithmsRequestBody extends ApiRequest {
   algorithms: SygaAlgorithmCreateParams[];
 }
 
-export function isAddAlgorithmsRequestBody(input: any) {
+export function isAddAlgorithmsRequestBody(
+  input: any,
+): input is AddAlgorithmsRequestBody {
   return (
     'algorithms' in input &&
     Array.isArray(input.algorithms) &&

@@ -20,6 +20,9 @@ export { JSONWebToken, User, UserLoginInfo, UserRegistrationInfo };
 export {
   SygaAlgorithm,
   SygaAlgorithmIdentifier,
+  SygaAlgorithmCreateParams,
+  isSygaAlgorithmCreateParams,
+  isSygaAlgorithmIdentifier,
   GraphEdge,
   GraphVertex,
   GraphComponent,
@@ -41,6 +44,8 @@ export {
   ExecuteAlgorithmRequest,
   AuthenticateRequest,
   isAuthenticateRequest,
+  AddAlgorithmsRequestBody,
+  isAddAlgorithmsRequestBody,
 } from './request';
 
 export {

@@ -2,6 +2,8 @@ export {
   SygaAlgorithm,
   isSygaAlgorithmIdentifier,
   SygaAlgorithmIdentifier,
+  SygaAlgorithmCreateParams,
+  isSygaAlgorithmCreateParams,
 } from './user';
 export {
   GraphEdge,

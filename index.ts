@@ -58,4 +58,6 @@ export {
   isAuthenticateSuccessResponse,
   GetUserAlgorithmsSuccessResponse,
   isGetUserAlgorithmsSuccessResponse,
+  AddAlgorithmsSuccessBody,
+  isAddAlgorithmsSuccessBody,
 } from './response';

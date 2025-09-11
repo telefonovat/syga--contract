@@ -8,6 +8,8 @@ export {
   isAuthenticateSuccessResponse,
   GetUserAlgorithmsSuccessResponse,
   isGetUserAlgorithmsSuccessResponse,
+  AddAlgorithmsSuccessBody,
+  isAddAlgorithmsSuccessBody,
 } from './results';
 export {
   isApiErrorResponse,

@@ -1,5 +1,5 @@
 export { ApiRequest } from './ApiRequest';
-export { ExecuteAlgorithmRequest } from './ExecuteAlgorithmRequest';
+export { ExecuteAlgorithmRequestBody } from './ExecuteAlgorithmRequest';
 export {
   AuthenticateRequest,
   isAuthenticateRequest,

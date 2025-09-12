@@ -41,7 +41,7 @@ export {
 
 export {
   ApiRequest,
-  ExecuteAlgorithmRequest,
+  ExecuteAlgorithmRequestBody,
   AuthenticateRequest,
   isAuthenticateRequest,
   AddAlgorithmsRequestBody,

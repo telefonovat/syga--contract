@@ -5,7 +5,7 @@ import { ApiRequest } from './ApiRequest';
  */
 type AlgorithmExecutionMode = 'anonymous' | 'named';
 
-export interface ExecuteAlgorithmRequest extends ApiRequest {
+export interface ExecuteAlgorithmRequestBody extends ApiRequest {
   mode?: AlgorithmExecutionMode;
   code: string;
 }

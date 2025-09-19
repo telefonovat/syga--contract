@@ -1,23 +1,38 @@
-export interface SygaAlgorithm {
-  author: string;
-  uuid: string;
+import { z } from 'zod';
 
-  name: string;
-  slug: string;
-  code: string;
+export const SygaAlgorithmSchema = z.object({
+  author: z.string(),
+  uuid: z.string(),
 
-  createdAtIso: string;
-  lastUpdatedAtIso: string;
-}
+  name: z.string(),
+  slug: z.string(),
+  code: z.string(),
 
-export type SygaAlgorithmCreateParams = Pick<
-  SygaAlgorithm,
-  'name' | 'code'
+  createdAtIso: z.string(),
+  lastUpdatedAtIso: z.string(),
+});
+
+export const SygaAlgorithmCreateParamsSchema =
+  SygaAlgorithmSchema.pick({
+    name: true,
+    code: true,
+  });
+
+export const SygaAlgorithmIdentifierSchema = SygaAlgorithmSchema.pick(
+  {
+    uuid: true,
+    name: true,
+  },
+);
+
+export type SygaAlgorithm = z.infer<typeof SygaAlgorithmSchema>;
+
+export type SygaAlgorithmCreateParams = z.infer<
+  typeof SygaAlgorithmCreateParamsSchema
 >;
 
-export type SygaAlgorithmIdentifier = Pick<
-  SygaAlgorithm,
-  'uuid' | 'name'
+export type SygaAlgorithmIdentifier = z.infer<
+  typeof SygaAlgorithmIdentifierSchema
 >;
 
 export function isSygaAlgorithmIdentifier(

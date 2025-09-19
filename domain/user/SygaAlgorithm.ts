@@ -30,6 +30,7 @@ export const SygaAlgorithmCreateParamsSchema =
   SygaAlgorithmSchema.pick({
     name: true,
     code: true,
+    isPublic: true,
   });
 
 export const SygaAlgorithmIdentifierSchema = SygaAlgorithmSchema.pick(

@@ -1,7 +1,8 @@
 export {
   SygaAlgorithmSchema,
-  SygaAlgorithmPublicSchema,
   SygaAlgorithm,
+  SygaAlgorithmPublicDataSchema,
+  SygaAlgorithmPublicData,
   isSygaAlgorithmIdentifier,
   SygaAlgorithmIdentifierSchema,
   SygaAlgorithmIdentifier,

@@ -13,16 +13,18 @@ export const SygaAlgorithmSchema = z.object({
   lastUpdatedAtIso: z.string(),
 });
 
-export const SygaAlgorithmPublicSchema = SygaAlgorithmSchema.pick({
-  author: true,
-  uuid: true,
+export const SygaAlgorithmPublicDataSchema = SygaAlgorithmSchema.pick(
+  {
+    author: true,
+    uuid: true,
 
-  name: true,
-  slug: true,
-  code: true,
+    name: true,
+    slug: true,
+    code: true,
 
-  createdAtIso: true,
-});
+    createdAtIso: true,
+  },
+);
 
 export const SygaAlgorithmCreateParamsSchema =
   SygaAlgorithmSchema.pick({
@@ -38,6 +40,9 @@ export const SygaAlgorithmIdentifierSchema = SygaAlgorithmSchema.pick(
 );
 
 export type SygaAlgorithm = z.infer<typeof SygaAlgorithmSchema>;
+export type SygaAlgorithmPublicData = z.infer<
+  typeof SygaAlgorithmPublicDataSchema
+>;
 
 export type SygaAlgorithmCreateParams = z.infer<
   typeof SygaAlgorithmCreateParamsSchema

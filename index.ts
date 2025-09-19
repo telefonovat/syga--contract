@@ -19,8 +19,11 @@ export { JSONWebToken, User, UserLoginInfo, UserRegistrationInfo };
 
 export {
   SygaAlgorithm,
+  SygaAlgorithmSchema,
   SygaAlgorithmIdentifier,
+  SygaAlgorithmIdentifierSchema,
   SygaAlgorithmCreateParams,
+  SygaAlgorithmCreateParamsSchema,
   isSygaAlgorithmCreateParams,
   isSygaAlgorithmIdentifier,
   GraphEdge,
@@ -41,12 +44,15 @@ export {
 
 export {
   ApiRequest,
+  ApiRequestSchema,
   ExecuteAlgorithmRequestBody,
   ExecuteAlgorithmRequestBodySchema,
   AlgorithmExecutionMode,
   AuthenticateRequest,
+  AuthenticateRequestSchema,
   isAuthenticateRequest,
   AddAlgorithmsRequestBody,
+  AddAlgorithmsRequestBodySchema,
   isAddAlgorithmsRequestBody,
 } from './request';
 

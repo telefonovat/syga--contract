@@ -1,7 +1,10 @@
 export {
+  SygaAlgorithmSchema,
   SygaAlgorithm,
   isSygaAlgorithmIdentifier,
+  SygaAlgorithmIdentifierSchema,
   SygaAlgorithmIdentifier,
+  SygaAlgorithmCreateParamsSchema,
   SygaAlgorithmCreateParams,
   isSygaAlgorithmCreateParams,
 } from './user';

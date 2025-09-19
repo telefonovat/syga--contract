@@ -1,4 +1,3 @@
-import { ApiRequest } from './ApiRequest';
 import { z } from 'zod';
 
 /** Denotes whether we know the identity of the client

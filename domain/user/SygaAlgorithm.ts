@@ -1,7 +1,13 @@
 export interface SygaAlgorithm {
+  author: string;
   uuid: string;
+
   name: string;
+  slug: string;
   code: string;
+
+  createdAtIso: string;
+  lastUpdatedAtIso: string;
 }
 
 export type SygaAlgorithmCreateParams = Pick<

@@ -8,6 +8,7 @@ export const SygaAlgorithmSchema = z.object({
   slug: z.string(),
   code: z.string(),
 
+  isPublic: z.boolean(),
   createdAtIso: z.string(),
   lastUpdatedAtIso: z.string(),
 });

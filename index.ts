@@ -20,6 +20,7 @@ export { JSONWebToken, User, UserLoginInfo, UserRegistrationInfo };
 export {
   SygaAlgorithm,
   SygaAlgorithmSchema,
+  SygaAlgorithmPublicSchema,
   SygaAlgorithmIdentifier,
   SygaAlgorithmIdentifierSchema,
   SygaAlgorithmCreateParams,

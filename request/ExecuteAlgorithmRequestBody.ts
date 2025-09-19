@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { ApiRequestSchema } from './ApiRequest';
+import { ApiRequestBodySchema } from './ApiRequestBody';
 
 /** Denotes whether we know the identity of the client
  * By default assume anonymous
@@ -10,7 +10,7 @@ export type AlgorithmExecutionMode = z.infer<
 >;
 
 export const ExecuteAlgorithmRequestBodySchema =
-  ApiRequestSchema.extend({
+  ApiRequestBodySchema.extend({
     mode: AlgorithmExecutionModeSchema.optional(),
     code: z.string(),
   });

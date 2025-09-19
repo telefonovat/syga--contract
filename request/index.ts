@@ -1,16 +1,19 @@
-export { ApiRequestSchema, ApiRequest } from './ApiRequest';
+export {
+  ApiRequestBodySchema,
+  ApiRequestBody,
+} from './ApiRequestBody';
 export {
   ExecuteAlgorithmRequestBody,
   ExecuteAlgorithmRequestBodySchema,
   AlgorithmExecutionMode,
-} from './ExecuteAlgorithmRequest';
+} from './ExecuteAlgorithmRequestBody';
 export {
-  AuthenticateRequest,
-  AuthenticateRequestSchema,
+  AuthenticateRequestBody,
+  AuthenticateRequestBodySchema,
   isAuthenticateRequest,
-} from './AuthenticateRequest.ts';
+} from './AuthenticateRequestBody';
 export {
   AddAlgorithmsRequestBody,
   AddAlgorithmsRequestBodySchema,
   isAddAlgorithmsRequestBody,
-} from './AddAlgorithmsRequestBody.ts';
+} from './AddAlgorithmsRequestBody';

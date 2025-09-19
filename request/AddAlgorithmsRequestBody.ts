@@ -3,13 +3,12 @@ import {
   isSygaAlgorithmCreateParams,
   SygaAlgorithmCreateParamsSchema,
 } from '../domain/user';
-import { ApiRequestSchema } from './ApiRequest';
+import { ApiRequestBodySchema } from './ApiRequestBody';
 
-export const AddAlgorithmsRequestBodySchema = ApiRequestSchema.extend(
-  {
+export const AddAlgorithmsRequestBodySchema =
+  ApiRequestBodySchema.extend({
     algorithms: z.array(SygaAlgorithmCreateParamsSchema),
-  },
-);
+  });
 export type AddAlgorithmsRequestBody = z.infer<
   typeof AddAlgorithmsRequestBodySchema
 >;

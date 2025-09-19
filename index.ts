@@ -43,13 +43,13 @@ export {
 } from './domain';
 
 export {
-  ApiRequest,
-  ApiRequestSchema,
+  ApiRequestBody,
+  ApiRequestBodySchema,
   ExecuteAlgorithmRequestBody,
   ExecuteAlgorithmRequestBodySchema,
   AlgorithmExecutionMode,
-  AuthenticateRequest,
-  AuthenticateRequestSchema,
+  AuthenticateRequestBody,
+  AuthenticateRequestBodySchema,
   isAuthenticateRequest,
   AddAlgorithmsRequestBody,
   AddAlgorithmsRequestBodySchema,

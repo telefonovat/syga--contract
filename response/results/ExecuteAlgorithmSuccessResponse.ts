@@ -1,5 +1,4 @@
 import { VisualizationFrame } from '../../domain/visualization/VisualizationFrame';
-import { ApiResponse } from '../ApiResponse.ts';
 import { ApiSuccessResponse } from '../ApiSuccessResponse.ts';
 
 interface ExecuteAlgorithmResult {

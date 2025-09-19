@@ -70,4 +70,6 @@ export {
   isGetUserAlgorithmsSuccessResponse,
   AddAlgorithmsSuccessBody,
   isAddAlgorithmsSuccessBody,
+  GetAlgorithmDetailSuccessBody,
+  GetAlgorithmDetailSuccessBodySchema,
 } from './response';

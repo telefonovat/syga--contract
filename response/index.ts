@@ -10,6 +10,8 @@ export {
   isGetUserAlgorithmsSuccessResponse,
   AddAlgorithmsSuccessBody,
   isAddAlgorithmsSuccessBody,
+  GetAlgorithmDetailSuccessBody,
+  GetAlgorithmDetailSuccessBodySchema,
 } from './results';
 export {
   isApiErrorResponse,

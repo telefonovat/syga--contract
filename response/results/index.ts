@@ -18,3 +18,8 @@ export {
   AddAlgorithmsSuccessBody,
   isAddAlgorithmsSuccessBody,
 } from './AddAlgorithmsSuccessBody.ts';
+
+export {
+  GetAlgorithmDetailSuccessBody,
+  GetAlgorithmDetailSuccessBodySchema,
+} from './GetAlgorithmDetailSuccessBody';

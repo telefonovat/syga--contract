@@ -3,14 +3,14 @@ import { z } from 'zod';
 export const SygaAlgorithmSchema = z.object({
   author: z.string(),
   uuid: z.string(),
+  createdAtIso: z.string(),
+  lastUpdatedAtIso: z.string(),
 
   name: z.string(),
   slug: z.string(),
   code: z.string(),
 
   isPublic: z.boolean(),
-  createdAtIso: z.string(),
-  lastUpdatedAtIso: z.string(),
 });
 
 export const SygaAlgorithmPublicDataSchema = SygaAlgorithmSchema.pick(
@@ -34,7 +34,12 @@ export const SygaAlgorithmCreateParamsSchema =
   });
 
 export const SygaAlgorithmUpdateParamsSchema =
-  SygaAlgorithmSchema.partial();
+  SygaAlgorithmSchema.omit({
+    uuid: true,
+    author: true,
+    createdAtIso: true,
+    lastUpdatedAtIso: true,
+  }).partial({});
 
 export const SygaAlgorithmIdentifierSchema = SygaAlgorithmSchema.pick(
   {

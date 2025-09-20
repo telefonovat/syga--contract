@@ -58,6 +58,8 @@ export {
   AddAlgorithmsRequestBody,
   AddAlgorithmsRequestBodySchema,
   isAddAlgorithmsRequestBody,
+  UpdateAlgorithmRequestBody,
+  UpdateAlgorithmRequestBodySchema,
 } from './request';
 
 export {

@@ -17,3 +17,7 @@ export {
   AddAlgorithmsRequestBodySchema,
   isAddAlgorithmsRequestBody,
 } from './AddAlgorithmsRequestBody';
+export {
+  UpdateAlgorithmRequestBodySchema,
+  UpdateAlgorithmRequestBody,
+} from './UpdateAlgorithmRequestBody';

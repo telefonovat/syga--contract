@@ -39,7 +39,7 @@ export const SygaAlgorithmUpdateParamsSchema =
     author: true,
     createdAtIso: true,
     lastUpdatedAtIso: true,
-  }).partial({});
+  }).partial();
 
 export const SygaAlgorithmIdentifierSchema = SygaAlgorithmSchema.pick(
   {

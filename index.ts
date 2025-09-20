@@ -26,6 +26,8 @@ export {
   SygaAlgorithmIdentifierSchema,
   SygaAlgorithmCreateParams,
   SygaAlgorithmCreateParamsSchema,
+  SygaAlgorithmUpdateParams,
+  SygaAlgorithmUpdateParamsSchema,
   isSygaAlgorithmCreateParams,
   isSygaAlgorithmIdentifier,
   GraphEdge,

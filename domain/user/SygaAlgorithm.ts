@@ -33,6 +33,9 @@ export const SygaAlgorithmCreateParamsSchema =
     isPublic: true,
   });
 
+export const SygaAlgorithmUpdateParamsSchema =
+  SygaAlgorithmSchema.partial();
+
 export const SygaAlgorithmIdentifierSchema = SygaAlgorithmSchema.pick(
   {
     uuid: true,
@@ -47,6 +50,9 @@ export type SygaAlgorithmPublicData = z.infer<
 
 export type SygaAlgorithmCreateParams = z.infer<
   typeof SygaAlgorithmCreateParamsSchema
+>;
+export type SygaAlgorithmUpdateParams = z.infer<
+  typeof SygaAlgorithmUpdateParamsSchema
 >;
 
 export type SygaAlgorithmIdentifier = z.infer<

@@ -8,6 +8,8 @@ export {
   SygaAlgorithmIdentifier,
   SygaAlgorithmCreateParamsSchema,
   SygaAlgorithmCreateParams,
+  SygaAlgorithmUpdateParamsSchema,
+  SygaAlgorithmUpdateParams,
   isSygaAlgorithmCreateParams,
 } from './user';
 export {

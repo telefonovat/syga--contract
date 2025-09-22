@@ -45,6 +45,7 @@ export const SygaAlgorithmIdentifierSchema = SygaAlgorithmSchema.pick(
   {
     uuid: true,
     name: true,
+    isPublic: true,
   },
 );
 

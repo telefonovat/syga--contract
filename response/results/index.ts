@@ -5,9 +5,14 @@ export {
 } from './ExecuteAlgorithmSuccessResponse';
 
 export {
-  isAuthenticateSuccessResponse,
-  AuthenticateSuccessResponse,
-} from './AuthenticateSuccessResponse';
+  SigninSucessBody,
+  isSigninSuccessBody,
+} from './SigninSuccessBody';
+
+export {
+  AuthenticationSuccessBody,
+  AuthenticationSuccessBodySchema,
+} from './AuthenticationSuccessBody';
 
 export {
   GetUserAlgorithmsSuccessResponse,

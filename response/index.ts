@@ -4,8 +4,10 @@ export {
   isExecuteAlgorithmSuccessResponse,
 } from './ExecuteAlgorithmResponse';
 export {
-  AuthenticateSuccessResponse,
-  isAuthenticateSuccessResponse,
+  isSigninSuccessBody,
+  SigninSucessBody,
+  AuthenticationSuccessBodySchema,
+  AuthenticationSuccessBody,
   GetUserAlgorithmsSuccessResponse,
   isGetUserAlgorithmsSuccessResponse,
   AddAlgorithmsSuccessBody,

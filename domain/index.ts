@@ -1,4 +1,6 @@
 export {
+  UserSchema,
+  User,
   SygaAlgorithmSchema,
   SygaAlgorithm,
   SygaAlgorithmPublicDataSchema,

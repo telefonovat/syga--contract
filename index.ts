@@ -4,7 +4,6 @@ import { APIResponse } from './APIResponse.ts';
 import { Algorithm } from './user/Algorithm.ts';
 import {
   JSONWebToken,
-  User,
   UserLoginInfo,
   UserRegistrationInfo,
 } from './user/Authentication.ts';
@@ -13,11 +12,13 @@ export * from './visualization/';
 
 export { APIRequest, APIResponse };
 export { Algorithm };
-export { JSONWebToken, User, UserLoginInfo, UserRegistrationInfo };
+export { JSONWebToken, UserLoginInfo, UserRegistrationInfo };
 
 // Below is new DDD interfaces and types
 
 export {
+  User,
+  UserSchema,
   SygaAlgorithm,
   SygaAlgorithmSchema,
   SygaAlgorithmPublicData,

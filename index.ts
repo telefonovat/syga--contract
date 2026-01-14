@@ -45,6 +45,7 @@ export {
   GraphVertexColors,
   GraphVertexLabels,
   GraphVertexShapes,
+  IFOptions,
 } from './domain';
 
 export {
@@ -79,4 +80,6 @@ export {
   isAddAlgorithmsSuccessBody,
   GetAlgorithmDetailSuccessBody,
   GetAlgorithmDetailSuccessBodySchema,
+  GetIFExerciseSuccessBody,
+  isGetIFExerciseSuccessBody,
 } from './response';

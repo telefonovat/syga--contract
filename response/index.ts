@@ -14,6 +14,8 @@ export {
   isAddAlgorithmsSuccessBody,
   GetAlgorithmDetailSuccessBody,
   GetAlgorithmDetailSuccessBodySchema,
+  GetIFExerciseSuccessBody,
+  isGetIFExerciseSuccessBody,
 } from './results';
 export {
   isApiErrorResponse,

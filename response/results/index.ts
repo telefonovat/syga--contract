@@ -28,3 +28,8 @@ export {
   GetAlgorithmDetailSuccessBody,
   GetAlgorithmDetailSuccessBodySchema,
 } from './GetAlgorithmDetailSuccessBody';
+
+export {
+  GetIFExerciseSuccessBody,
+  isGetIFExerciseSuccessBody,
+} from './GetIFExerciseSuccessBody.ts';

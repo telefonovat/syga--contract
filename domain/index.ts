@@ -30,3 +30,5 @@ export {
   GraphVertexLabels,
   GraphVertexShapes,
 } from './visualization';
+
+export { IFOptions } from './if-exercises/';

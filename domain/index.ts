@@ -31,4 +31,10 @@ export {
   GraphVertexShapes,
 } from './visualization';
 
-export { IFOptions } from './if-exercises/';
+export {
+  IFOptions,
+  EdgeOptionInput,
+  VertexOptionInput,
+  EdgeOption,
+  VertexOption,
+} from './if-exercises/';

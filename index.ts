@@ -46,6 +46,10 @@ export {
   GraphVertexLabels,
   GraphVertexShapes,
   IFOptions,
+  EdgeOption,
+  EdgeOptionInput,
+  VertexOption,
+  VertexOptionInput,
 } from './domain';
 
 export {

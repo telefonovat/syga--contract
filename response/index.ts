@@ -1,9 +1,9 @@
-export {
+export type {
   ExecuteAlgorithmResponse,
   isExecuteAlgorithmResult,
   isExecuteAlgorithmSuccessResponse,
 } from './ExecuteAlgorithmResponse';
-export {
+export type {
   isSigninSuccessBody,
   SigninSucessBody,
   AuthenticationSuccessBodySchema,
@@ -17,7 +17,7 @@ export {
   GetIFExerciseSuccessBody,
   isGetIFExerciseSuccessBody,
 } from './results';
-export {
+export type {
   isApiErrorResponse,
   ApiErrorResponse,
 } from './ApiErrorResponse.ts';

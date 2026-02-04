@@ -1,22 +1,41 @@
-import { APIRequest } from './APIRequest.ts';
-import { APIResponse } from './APIResponse.ts';
+import type { APIRequest } from './APIRequest.ts';
+import type { APIResponse } from './APIResponse.ts';
 
-import { Algorithm } from './user/Algorithm.ts';
-import {
+import type { Algorithm } from './user/Algorithm.ts';
+import type {
   JSONWebToken,
   UserLoginInfo,
   UserRegistrationInfo,
 } from './user/Authentication.ts';
 
-export * from './visualization/';
+export type {
+  Node,
+  Edge,
+  ComponentStyle,
+  NodeColors,
+  NodeLabels,
+  NodeShapes,
+  EdgeColors,
+  EdgeLabels,
+  EdgeShapes,
+  Component,
+  Frame,
+  VisualizationRequest,
+  VisualizationResult,
+  LegacyFrame,
+  LegacyComponent,
+  LegacyVisualizationResult,
+  isLegacyFrame,
+  isLegacyVisualizationResult,
+} from './visualization/';
 
-export { APIRequest, APIResponse };
-export { Algorithm };
-export { JSONWebToken, UserLoginInfo, UserRegistrationInfo };
+export type { APIRequest, APIResponse };
+export type { Algorithm };
+export type { JSONWebToken, UserLoginInfo, UserRegistrationInfo };
 
 // Below is new DDD interfaces and types
 
-export {
+export type {
   User,
   UserSchema,
   SygaAlgorithm,
@@ -53,22 +72,24 @@ export {
 } from './domain';
 
 export {
-  ApiRequestBody,
   ApiRequestBodySchema,
-  ExecuteAlgorithmRequestBody,
   ExecuteAlgorithmRequestBodySchema,
-  AlgorithmExecutionMode,
-  AuthenticateRequestBody,
   AuthenticateRequestBodySchema,
   isAuthenticateRequest,
-  AddAlgorithmsRequestBody,
   AddAlgorithmsRequestBodySchema,
   isAddAlgorithmsRequestBody,
-  UpdateAlgorithmRequestBody,
   UpdateAlgorithmRequestBodySchema,
 } from './request';
+export type {
+  ApiRequestBody,
+  ExecuteAlgorithmRequestBody,
+  AlgorithmExecutionMode,
+  AuthenticateRequestBody,
+  AddAlgorithmsRequestBody,
+  UpdateAlgorithmRequestBody,
+} from './request';
 
-export {
+export type {
   ExecuteAlgorithmResponse,
   isApiErrorResponse,
   ApiErrorResponse,

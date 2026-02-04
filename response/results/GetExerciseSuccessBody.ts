@@ -1,1 +1,1 @@
-interface GetExerciseSuccessBody {}
+export interface GetExerciseSuccessBody {}

@@ -1,23 +1,19 @@
-export {
-  ApiRequestBodySchema,
-  ApiRequestBody,
-} from './ApiRequestBody';
-export {
+export { ApiRequestBodySchema } from './ApiRequestBody';
+export type { ApiRequestBody } from './ApiRequestBody';
+export { ExecuteAlgorithmRequestBodySchema } from './ExecuteAlgorithmRequestBody';
+export type {
   ExecuteAlgorithmRequestBody,
-  ExecuteAlgorithmRequestBodySchema,
   AlgorithmExecutionMode,
 } from './ExecuteAlgorithmRequestBody';
 export {
-  AuthenticateRequestBody,
   AuthenticateRequestBodySchema,
   isAuthenticateRequest,
 } from './AuthenticateRequestBody';
+export type { AuthenticateRequestBody } from './AuthenticateRequestBody';
 export {
-  AddAlgorithmsRequestBody,
   AddAlgorithmsRequestBodySchema,
   isAddAlgorithmsRequestBody,
 } from './AddAlgorithmsRequestBody';
-export {
-  UpdateAlgorithmRequestBodySchema,
-  UpdateAlgorithmRequestBody,
-} from './UpdateAlgorithmRequestBody';
+export type { AddAlgorithmsRequestBody } from './AddAlgorithmsRequestBody';
+export { UpdateAlgorithmRequestBodySchema } from './UpdateAlgorithmRequestBody';
+export type { UpdateAlgorithmRequestBody } from './UpdateAlgorithmRequestBody';

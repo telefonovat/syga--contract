@@ -1,20 +1,22 @@
-export {
-  UserSchema,
-  User,
-  SygaAlgorithmSchema,
+export type {
   SygaAlgorithm,
-  SygaAlgorithmPublicDataSchema,
   SygaAlgorithmPublicData,
-  isSygaAlgorithmIdentifier,
-  SygaAlgorithmIdentifierSchema,
   SygaAlgorithmIdentifier,
-  SygaAlgorithmCreateParamsSchema,
   SygaAlgorithmCreateParams,
-  SygaAlgorithmUpdateParamsSchema,
   SygaAlgorithmUpdateParams,
-  isSygaAlgorithmCreateParams,
+  User,
 } from './user';
 export {
+  UserSchema,
+  SygaAlgorithmSchema,
+  SygaAlgorithmPublicDataSchema,
+  isSygaAlgorithmIdentifier,
+  SygaAlgorithmIdentifierSchema,
+  SygaAlgorithmCreateParamsSchema,
+  SygaAlgorithmUpdateParamsSchema,
+  isSygaAlgorithmCreateParams,
+} from './user';
+export type {
   GraphEdge,
   GraphVertex,
   GraphComponent,
@@ -31,7 +33,7 @@ export {
   GraphVertexShapes,
 } from './visualization';
 
-export {
+export type {
   IFOptions,
   EdgeOptionInput,
   VertexOptionInput,

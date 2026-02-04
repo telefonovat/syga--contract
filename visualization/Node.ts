@@ -1,3 +1,3 @@
 type Node = string | number;
 
-export { type Node };
+export type { Node };

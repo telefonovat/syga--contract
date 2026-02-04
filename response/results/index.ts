@@ -1,35 +1,35 @@
-export {
+export type {
   ExecuteAlgorithmSuccessResponse,
   isExecuteAlgorithmResult,
   isExecuteAlgorithmSuccessResponse,
 } from './ExecuteAlgorithmSuccessResponse';
 
-export {
+export type {
   SigninSucessBody,
   isSigninSuccessBody,
 } from './SigninSuccessBody';
 
-export {
+export type {
   AuthenticationSuccessBody,
   AuthenticationSuccessBodySchema,
 } from './AuthenticationSuccessBody';
 
-export {
+export type {
   GetUserAlgorithmsSuccessResponse,
   isGetUserAlgorithmsSuccessResponse,
 } from './GetUserAlgorithmsSuccessResponse.ts';
 
-export {
+export type {
   AddAlgorithmsSuccessBody,
   isAddAlgorithmsSuccessBody,
 } from './AddAlgorithmsSuccessBody.ts';
 
-export {
+export type {
   GetAlgorithmDetailSuccessBody,
   GetAlgorithmDetailSuccessBodySchema,
 } from './GetAlgorithmDetailSuccessBody';
 
-export {
+export type {
   GetIFExerciseSuccessBody,
   isGetIFExerciseSuccessBody,
 } from './GetIFExerciseSuccessBody.ts';

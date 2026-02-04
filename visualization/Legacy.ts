@@ -66,10 +66,9 @@ function isLegacyVisualizationResult(
   );
 }
 
-export {
+export type {
   LegacyFrame,
   LegacyComponent,
   LegacyVisualizationResult,
-  isLegacyFrame,
-  isLegacyVisualizationResult,
 };
+export { isLegacyFrame, isLegacyVisualizationResult };

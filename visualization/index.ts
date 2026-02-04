@@ -25,7 +25,7 @@ import {
   isLegacyVisualizationResult,
 } from './Legacy.ts';
 
-export {
+export type {
   Node,
   Edge,
   ComponentStyle,

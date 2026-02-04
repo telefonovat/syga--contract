@@ -1,7 +1,7 @@
-export { GraphVertex } from './GraphVertex';
-export { GraphEdge } from './GraphEdge';
-export { GraphComponent, GraphType } from './GraphComponent';
-export {
+export type { GraphVertex } from './GraphVertex';
+export type { GraphEdge } from './GraphEdge';
+export type { GraphComponent, GraphType } from './GraphComponent';
+export type {
   GraphComponentStyle,
   GraphEdgeColors,
   GraphEdgeLabels,
@@ -10,6 +10,6 @@ export {
   GraphVertexLabels,
   GraphVertexShapes,
 } from './GraphComponentStyle';
-export { GraphVertexShape } from './GraphVertexShape';
-export { GraphEdgeShape } from './GraphEdgeShape';
-export { VisualizationFrame } from './VisualizationFrame';
+export type { GraphVertexShape } from './GraphVertexShape';
+export type { GraphEdgeShape } from './GraphEdgeShape';
+export type { VisualizationFrame } from './VisualizationFrame';

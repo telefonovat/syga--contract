@@ -16,12 +16,12 @@ export {
   SygaAlgorithmUpdateParamsSchema,
   isSygaAlgorithmCreateParams,
 } from './user';
+export { GraphType } from './visualization';
 export type {
   GraphEdge,
   GraphVertex,
   GraphComponent,
   GraphComponentStyle,
-  GraphType,
   GraphVertexShape,
   GraphEdgeShape,
   VisualizationFrame,

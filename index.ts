@@ -8,6 +8,10 @@ import type {
   UserRegistrationInfo,
 } from './user/Authentication.ts';
 
+export {
+  isLegacyFrame,
+  isLegacyVisualizationResult,
+} from './visualization/';
 export type {
   Node,
   Edge,
@@ -25,8 +29,6 @@ export type {
   LegacyFrame,
   LegacyComponent,
   LegacyVisualizationResult,
-  isLegacyFrame,
-  isLegacyVisualizationResult,
 } from './visualization/';
 
 export type { APIRequest, APIResponse };
@@ -35,26 +37,28 @@ export type { JSONWebToken, UserLoginInfo, UserRegistrationInfo };
 
 // Below is new DDD interfaces and types
 
-export type {
-  User,
+export {
+  GraphType,
   UserSchema,
-  SygaAlgorithm,
   SygaAlgorithmSchema,
-  SygaAlgorithmPublicData,
   SygaAlgorithmPublicDataSchema,
-  SygaAlgorithmIdentifier,
   SygaAlgorithmIdentifierSchema,
-  SygaAlgorithmCreateParams,
   SygaAlgorithmCreateParamsSchema,
-  SygaAlgorithmUpdateParams,
   SygaAlgorithmUpdateParamsSchema,
   isSygaAlgorithmCreateParams,
   isSygaAlgorithmIdentifier,
+} from './domain';
+export type {
+  User,
+  SygaAlgorithm,
+  SygaAlgorithmPublicData,
+  SygaAlgorithmIdentifier,
+  SygaAlgorithmCreateParams,
+  SygaAlgorithmUpdateParams,
   GraphEdge,
   GraphVertex,
   GraphComponent,
   GraphComponentStyle,
-  GraphType,
   GraphVertexShape,
   GraphEdgeShape,
   VisualizationFrame,
@@ -89,22 +93,24 @@ export type {
   UpdateAlgorithmRequestBody,
 } from './request';
 
-export type {
-  ExecuteAlgorithmResponse,
+export {
   isApiErrorResponse,
-  ApiErrorResponse,
   isExecuteAlgorithmResult,
   isExecuteAlgorithmSuccessResponse,
-  SigninSucessBody,
   isSigninSuccessBody,
-  AuthenticationSuccessBody,
   AuthenticationSuccessBodySchema,
-  GetUserAlgorithmsSuccessResponse,
   isGetUserAlgorithmsSuccessResponse,
-  AddAlgorithmsSuccessBody,
   isAddAlgorithmsSuccessBody,
-  GetAlgorithmDetailSuccessBody,
   GetAlgorithmDetailSuccessBodySchema,
-  GetIFExerciseSuccessBody,
   isGetIFExerciseSuccessBody,
+} from './response';
+export type {
+  ExecuteAlgorithmResponse,
+  ApiErrorResponse,
+  SigninSucessBody,
+  AuthenticationSuccessBody,
+  GetUserAlgorithmsSuccessResponse,
+  AddAlgorithmsSuccessBody,
+  GetAlgorithmDetailSuccessBody,
+  GetIFExerciseSuccessBody,
 } from './response';

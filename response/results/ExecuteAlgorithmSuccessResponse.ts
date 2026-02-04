@@ -16,10 +16,12 @@ export interface ExecuteAlgorithmSuccessResponse
   payload: ExecuteAlgorithmResult;
 }
 
-export function isExecuteAlgorithmResult(
-  input: any,
-): input is ExecuteAlgorithmResult {
+export const isExecuteAlgorithmResult = (
+  input: unknown,
+): input is ExecuteAlgorithmResult => {
   return (
+    typeof input === 'object' &&
+    input !== null &&
     'timestamp' in input &&
     'response' in input &&
     'algorithmTime' in input &&
@@ -27,10 +29,10 @@ export function isExecuteAlgorithmResult(
     'elapsed' in input &&
     'frames' in input
   );
-}
+};
 
-export function isExecuteAlgorithmSuccessResponse(
+export const isExecuteAlgorithmSuccessResponse = (
   input: any,
-): input is ExecuteAlgorithmSuccessResponse {
+): input is ExecuteAlgorithmSuccessResponse => {
   return 'result' in input && isExecuteAlgorithmResult(input.result);
-}
+};

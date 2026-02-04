@@ -25,6 +25,7 @@ import {
   isLegacyVisualizationResult,
 } from './Legacy.ts';
 
+export { isLegacyFrame, isLegacyVisualizationResult };
 export type {
   Node,
   Edge,
@@ -42,6 +43,4 @@ export type {
   LegacyFrame,
   LegacyComponent,
   LegacyVisualizationResult,
-  isLegacyFrame,
-  isLegacyVisualizationResult,
 };

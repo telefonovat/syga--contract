@@ -1,6 +1,7 @@
 export type { GraphVertex } from './GraphVertex';
 export type { GraphEdge } from './GraphEdge';
-export type { GraphComponent, GraphType } from './GraphComponent';
+export type { GraphComponent } from './GraphComponent';
+export { GraphType } from './GraphComponent';
 export type {
   GraphComponentStyle,
   GraphEdgeColors,

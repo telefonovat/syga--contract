@@ -1,12 +1,12 @@
-import type { APIRequest } from './APIRequest.ts';
-import type { APIResponse } from './APIResponse.ts';
+import type { APIRequest } from './APIRequest';
+import type { APIResponse } from './APIResponse';
 
-import type { Algorithm } from './user/Algorithm.ts';
+import type { Algorithm } from './user/Algorithm';
 import type {
   JSONWebToken,
   UserLoginInfo,
   UserRegistrationInfo,
-} from './user/Authentication.ts';
+} from './user/Authentication';
 
 export {
   isLegacyFrame,

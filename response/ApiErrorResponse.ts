@@ -1,4 +1,4 @@
-import { ApiResponse, isApiResponse } from './ApiResponse.ts';
+import { ApiResponse, isApiResponse } from './ApiResponse';
 
 export interface ApiErrorResponse extends ApiResponse {
   errorMessages: string[];

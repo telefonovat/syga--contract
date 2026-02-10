@@ -17,5 +17,5 @@ export {
   isExecuteAlgorithmResult,
   isExecuteAlgorithmSuccessResponse,
 } from './results';
-export { isApiErrorResponse } from './ApiErrorResponse.ts';
-export type { ApiErrorResponse } from './ApiErrorResponse.ts';
+export { isApiErrorResponse } from './ApiErrorResponse';
+export type { ApiErrorResponse } from './ApiErrorResponse';

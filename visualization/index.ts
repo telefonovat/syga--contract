@@ -1,5 +1,5 @@
-import { Edge } from './Edge.ts';
-import { Node } from './Node.ts';
+import { Edge } from './Edge';
+import { Node } from './Node';
 
 import {
   ComponentStyle,
@@ -9,13 +9,13 @@ import {
   EdgeColors,
   EdgeLabels,
   EdgeShapes,
-} from './ComponentStyle.ts';
+} from './ComponentStyle';
 
-import { Component } from './Component.ts';
-import { Frame } from './Frame.ts';
+import { Component } from './Component';
+import { Frame } from './Frame';
 
-import { VisualizationRequest } from './VisualizationRequest.ts';
-import { VisualizationResult } from './VisualizationResult.ts';
+import { VisualizationRequest } from './VisualizationRequest';
+import { VisualizationResult } from './VisualizationResult';
 
 import {
   LegacyFrame,
@@ -23,7 +23,7 @@ import {
   LegacyVisualizationResult,
   isLegacyFrame,
   isLegacyVisualizationResult,
-} from './Legacy.ts';
+} from './Legacy';
 
 export { isLegacyFrame, isLegacyVisualizationResult };
 export type {

@@ -10,14 +10,14 @@ export { isSigninSuccessBody } from './SigninSuccessBody';
 export type { AuthenticationSuccessBody } from './AuthenticationSuccessBody';
 export { AuthenticationSuccessBodySchema } from './AuthenticationSuccessBody';
 
-export type { GetUserAlgorithmsSuccessResponse } from './GetUserAlgorithmsSuccessResponse.ts';
-export { isGetUserAlgorithmsSuccessResponse } from './GetUserAlgorithmsSuccessResponse.ts';
+export type { GetUserAlgorithmsSuccessResponse } from './GetUserAlgorithmsSuccessResponse';
+export { isGetUserAlgorithmsSuccessResponse } from './GetUserAlgorithmsSuccessResponse';
 
-export type { AddAlgorithmsSuccessBody } from './AddAlgorithmsSuccessBody.ts';
-export { isAddAlgorithmsSuccessBody } from './AddAlgorithmsSuccessBody.ts';
+export type { AddAlgorithmsSuccessBody } from './AddAlgorithmsSuccessBody';
+export { isAddAlgorithmsSuccessBody } from './AddAlgorithmsSuccessBody';
 
 export type { GetAlgorithmDetailSuccessBody } from './GetAlgorithmDetailSuccessBody';
 export { GetAlgorithmDetailSuccessBodySchema } from './GetAlgorithmDetailSuccessBody';
 
-export type { GetIFExerciseSuccessBody } from './GetIFExerciseSuccessBody.ts';
-export { isGetIFExerciseSuccessBody } from './GetIFExerciseSuccessBody.ts';
+export type { GetIFExerciseSuccessBody } from './GetIFExerciseSuccessBody';
+export { isGetIFExerciseSuccessBody } from './GetIFExerciseSuccessBody';

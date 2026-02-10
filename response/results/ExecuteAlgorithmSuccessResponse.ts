@@ -1,5 +1,5 @@
 import { VisualizationFrame } from '../../domain/visualization/VisualizationFrame';
-import { ApiSuccessResponse } from '../ApiSuccessResponse.ts';
+import { ApiSuccessResponse } from '../ApiSuccessResponse';
 
 interface ExecuteAlgorithmResult {
   timestamp: string;

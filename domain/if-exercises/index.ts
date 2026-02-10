@@ -4,4 +4,4 @@ export type {
   VertexOptionInput,
   EdgeOption,
   VertexOption,
-} from './IFOptions.ts';
+} from './IFOptions';

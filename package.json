@@ -2,6 +2,7 @@
   "name": "@telefonovat/syga--contract",
   "version": "9.6.3",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
